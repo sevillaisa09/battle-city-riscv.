@@ -11,6 +11,14 @@ A recreation of **Battle City** (Namco, NES 1985) written entirely in **RISC-V a
 
 ---
 
+## Demo
+
+[![Battle City RISC-V gameplay demo](https://img.youtube.com/vi/FWDG-uHphE0/maxresdefault.jpg)](https://youtu.be/FWDG-uHphE0)
+
+*Click the image to watch the game running in RARS.*
+
+---
+
 ## Overview
 
 Three levels of the original game, rebuilt at the instruction level. Every pixel written to the display is a store to a mapped memory address; every key press is polled from an MMIO status register. There is no standard library, no dynamic allocation and no abstraction between the code and the machine.
@@ -44,6 +52,8 @@ Three levels of the original game, rebuilt at the instruction level. Every pixel
 ---
 
 ## Running the project
+
+> If you'd rather just see it working, watch the [demo video](https://youtu.be/FWDG-uHphE0) — no setup required.
 
 **Requirements:** Linux, Java, and the [RARS simulator](https://github.com/TheThirdOne/rars).
 
